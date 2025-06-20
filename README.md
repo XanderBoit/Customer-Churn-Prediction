@@ -10,12 +10,12 @@ This notebook demonstrates a machine learning approach to predict customer churn
 - Evaluated using accuracy, precision, recall, F1-score, and classification report.
 
 ## Dataset
-- Source: Telco Customer Churn dataset (commonly hosted on Kaggle or IBM Sample Data)
+- Source: [Telco Customer Churn dataset on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - Class Distribution: 774 non-churn vs. 281 churn
 
 ## How to Run
 1. Install required packages: `pip install -r requirements.txt`
-2. Run `main.py` from the command line or `Churn.ipynb` in Jupyter/VSCode.
+2. Run `main.py` from the command line.
 
 ## Results
 - Accuracy: ~80.9%
