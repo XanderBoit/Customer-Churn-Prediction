@@ -24,5 +24,13 @@ This notebook demonstrates a machine learning approach to predict customer churn
 - F1-Score (Churn class): 63%
 - AUC: ~0.85
 
+## Visualizations
+- **Confusion Matrix**: Highlights correct vs. incorrect predictions
+![Confusion Matrix](images/Confusion_Matrix.png)
+- **ROC Curve**: AUC of 0.85 shows strong discriminative power
+![ROC Curve](images/ROC_Curve.png)
+- **SHAP Summary Plot**: Shows that Contract type, Tenure, InternetService, and MonthlyCharges are key churn indicators.
+![SHAP Summary Plot](images/SHAP_Plot.png)
+
 ## License
 This project is licensed under the MIT License.
